@@ -1,0 +1,114 @@
+
+.main{
+    position: relative;
+    
+    .home{
+       position: absolute;
+       top: 5%;
+       left: 5%;
+       text-decoration: none;
+       color: black;
+       &:hover{
+           text-decoration: underline;
+       }
+    }
+
+    .garage-container{
+        background: white;
+        visibility: visible;
+        width: 100vw;
+        height: 100vh;
+
+       .text{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 700;
+        color: black;
+        text-transform: uppercase;
+       }
+
+       .sub-txt{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: grey;
+        text-transform: uppercase;
+       }
+
+       a{
+        text-transform: uppercase;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        color: black;
+        border: 2px solid black;
+        margin-left: 1300px;
+        &:hover{
+            border: 2px;
+            background: black;
+            color: white;
+        }
+        
+    }
+    
+    }
+    
+    
+}
+
+.mn{
+    .home{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        text-decoration: none;
+        color: black;
+        &:hover{
+            text-decoration: underline;
+            color: white;
+        }
+     }
+    .contain{
+        background: darkgray;
+        visibility: visible;
+        width: 100vw;
+        height: 100vh;
+       .txt{
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        text-transform: uppercase;
+       }
+
+       .sub-txt{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: grey;
+        text-transform: uppercase;
+       }
+
+       a{
+        text-transform: uppercase;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        color: black;
+        border: 2px solid black;
+        margin-left: 30px;
+        &:hover{
+            border: 2px;
+            background: black;
+            color: white;
+        }
+        
+    }
+    
+       
+    }
+   
+}
+
+
